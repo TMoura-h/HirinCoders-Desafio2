@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema E-Comerce</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <script src="js/script.js"></script>
+  </head>
+<body>
+  <header>
+    <div class="cabecalho">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li></li><a href="cadastroClientes.html">Clientes</a></li>
+          <li><a href="cadastroProdutos.html">Produtos</a></li>
+          <li><a href="consultarClientes.html">Consultar Clientes</a></li>
+          <li><a href="consultarProdutos.html">Consultar Produtos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrapper">
+             <div id="consulta-content">
+            <script>listarCadastrosC();</script>
+  
+            <p>Clique no botão para limpar o objeto localStorage do seu navegador<br/><input type="button" id="limpar" value="Limpar" class="" onclick="limparStorageC()"></p>
+          </div>
+    </div>
+  </section>
+ <footer class="footer"></footer>
+ </body>
+
+  
+</html>

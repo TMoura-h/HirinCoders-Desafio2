@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema E-Comerce</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+  <body>
+    <header>
+      <div class="cabecalho">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li></li><a href="cadastroClientes.html">Clientes</a></li>
+          <li><a href="cadastroProdutos.html">Produtos</a></li>
+          <li><a href="consultarClientes.html">Consultar Clientes</a></li>
+          <li><a href="consultarProdutos.html">Consultar Produtos</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal do site -->
+    <section>
+      <div class="wrapper cadastro-content">
+         <!-- Conteúdo de interação -->
+         <div>        
+          <div class="bg-form">
+            <form action="#">
+              <div>
+                  <label>Id do cliente:</label>
+                  <input type="text" id="registroC" placeholder="digite um id." />
+              </div>
+              <div>
+                  <label>Nome:</label>
+                  <input type="text" id="nomeC" placeholder="Insira o nome" />
+              </div>
+              <div>
+                  <label>Telefone:</label>
+                  <input type="text" id="telC" placeholder="digite o telefone." />
+              </div>
+              <div>
+                  <label>Data de nascimento:</label>
+                  <input type="text" id="nascC" placeholder="digite o nascimento." />
+              </div>
+              <div>
+                <label>Endereço:</label>
+                <input type="text" id="endC" placeholder="digite o endereço." />
+            </div>
+            <div>
+              <label>Email:</label>
+              <input type="text" id="emailC" placeholder="digite o email." />
+          </div>
+
+              <div id="btn-envio">
+                <input type="button" value="Cadastrar" class="" onclick="preenchimentoCampos('registroC', 'nomeC', 'nascC', 'telC', 'nascC', 'endC')">
+                <input type="reset" id="cancelar" class="" value="Cancelar"/>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <!-- /wrapper -->
+    </main>
+      </div>
+    </section>
+    <footer class="footer"></footer>
+
+
+        
+      
+
+
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+
+</body>
+</html>
